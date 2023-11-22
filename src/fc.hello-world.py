@@ -25,6 +25,6 @@ def goodbye(name: str):
   }
 
 __definitions__: Definitions = {
-  "preprompt-function": hello,
+  "prepromp": hello,
   "openai": goodbye
 }
