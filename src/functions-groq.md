@@ -8,3 +8,4 @@ DO NOT ADD ADDITIONAL DESCRIPTIONS, JUST FUNCTION CALL.
 The most commonly used one is {most_commonly_used}. If none of the tools should be used, say \"null\" without descriptions.
 Your job is to determine whether to use a function call or not ("null"). Do not reply.
 The user will provide text, and you'll classify whether to call or not.
+Given text: {text}
