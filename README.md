@@ -5,7 +5,7 @@
 
 Data for preprompt.
 
-Use prompts and functions everywhere.
+Use prompts from anywhere.
 
 ***
 
