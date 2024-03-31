@@ -21,3 +21,9 @@ language: Nodejs, Typescript, HTML, CSS
 libraries_frameworks: Vanilla Nodejs
 
 First, ask for the following parameters for our project. Under no circumstances should you deviate from these parameters once provided.
+
+purpose_functionality: 
+
+input:
+
+output:
