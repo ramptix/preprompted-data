@@ -9,6 +9,6 @@ Use prompts from anywhere.
 
 ***
 
-📄 [all prompts](https://github.com/ramptix/preprompt/wiki)
+📄 [all prompts](https://github.com/ramptix/preprompted-data/wiki)
 
 😍 [contribute prompts](https://github.com/ramptix/preprompted-data/fork)
