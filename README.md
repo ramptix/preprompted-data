@@ -3,12 +3,12 @@
     width="350"
 />
 
-Data for preprompt.
+Prompts. Use from anywhere.
 
-Use prompts from anywhere.
+- 📄 [all prompts](https://github.com/ramptix/preprompted-data/wiki)
 
-***
+- 😍 [contribute prompts](https://github.com/ramptix/preprompted-data/fork)
 
-📄 [all prompts](https://github.com/ramptix/preprompted-data/wiki)
+<br />
 
-😍 [contribute prompts](https://github.com/ramptix/preprompted-data/fork)
+> `preprompt` is no longer in development. Implementation has moved to [ramptix/leicht](https://github.com/ramptix/leicht).
