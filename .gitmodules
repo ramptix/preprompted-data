@@ -1,0 +1,3 @@
+[submodule "preprompted-data.wiki"]
+	path = preprompted-data.wiki
+	url = https://github.com/ramptix/preprompted-data.wiki.git
