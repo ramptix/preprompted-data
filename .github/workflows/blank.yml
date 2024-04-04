@@ -25,9 +25,10 @@ jobs:
         run: |
           echo "discussion_number=$(jq -r '.client_payload.discussion_number' $GITHUB_EVENT_PATH)" >> $GITHUB_OUTPUT
           echo "discussion_category=$(jq -r '.client_payload.discussion_category' $GITHUB_EVENT_PATH)" >> $GITHUB_OUTPUT
+          echo "$discussion_category"
 
       - name: Send message if discussion is in prompts category
-        if: steps.get_discussion.outputs.discussion_category == 'prompts'
+        if: steps.get_discussion.outputs.discussion_category == 'Prompts'
         run: |
           discussion_number="${{ steps.get_discussion.outputs.discussion_number }}"
           message="A new discussion has been created in the prompts category! Check it out at https://github.com/${{ github.repository }}/discussions/${discussion_number}"
