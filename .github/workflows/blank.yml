@@ -1,8 +1,8 @@
 name: New Prompts Discussion Notification
 
 on:
-  repository_dispatch:
-    types: [discussion.created]
+  discussion:
+    types: [created]
   
 jobs:
   send_notification:
