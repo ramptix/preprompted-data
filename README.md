@@ -7,7 +7,7 @@ Prompts. Use from anywhere.
 
 - 📄 [all prompts](https://github.com/ramptix/preprompted-data/wiki)
 
-- 😍 [contribute prompts](https://github.com/ramptix/preprompted-data/fork)
+- 😍 [contribute prompts](https://github.com/ramptix/preprompted-data/discussions/1)
 
 <br />
 
