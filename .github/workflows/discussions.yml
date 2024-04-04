@@ -1,0 +1,37 @@
+name: Comment on Discussions
+
+on:
+  discussion:
+    types: [created]
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check for Prompts category
+        id: check_category
+        uses: actions/github-script@v5
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            const discussion = await github.rest.discussions.getDiscussion({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              discussion_number: context.payload.discussion.number
+            })
+            const categoryName = discussion.data.category_name
+            return {categoryName}
+
+      - name: Comment on Discussion
+        if: ${{steps.check_category.outputs.categoryName == 'Prompts'}}
+        uses: actions/github-script@v5
+        with:
+          github-token: ${{secrets.GITHUB_TOKEN}}
+          script: |
+            const commentBody = 'what up'
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.payload.discussion.number,
+              body: commentBody
+            })
