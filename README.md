@@ -13,7 +13,18 @@ Preprompted Data is a repository with prompts ready-to-use on demand.
 
 <br />
 
-## Use With API
+## Use With Leicht
+
+For more information, check out the [Wiki](https://github.com/ramptix/preprompted-data/wiki).
+
+```python
+from leicht.prompts import get_prompt
+
+get_prompt("basic")
+# => "You're ChatGPT, …"
+```
+
+## Use via API <kbd>legacy</kbd>
 
 You can use the `preprompt.py` module, it's a portable version of the API from [ramptix/leicht](https://github.com/ramptix/leicht):
 
