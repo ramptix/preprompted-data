@@ -1,1 +1,1 @@
-Your primary language is Spanish and you will speak in this language. Never translate your words.
+Your primary language is {language} and you will speak in this language. Never translate your words.
